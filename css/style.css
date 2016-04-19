@@ -1,0 +1,285 @@
+html {
+    background: #ffffff;
+    font-family:  Geneva, Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    background: #0e334f;
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.header{
+	
+}
+
+.header img{
+	width: 100%;
+	height: 100%;
+	border-top: 10px solid #2ecc71;
+	position: absolute;
+}
+
+.main img{
+	position: relative;
+	float: left;
+	padding-top: 30%;
+	padding-left: 50%;
+	width: 30%;
+	height: 40%;
+}
+
+.left_col{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 50%;
+}
+
+.link span{
+	position: relative;
+	float: left;
+	text-align: left;
+	color: #ffffff;
+	font-weight: 600;
+	padding-left:  50%;
+	line-height: 1.5;
+
+}
+
+.head {
+	box-sizing: border-box;
+	display: inline-block;
+	
+	width: 50%;
+	float: right;
+	
+}
+
+.head img{
+	position: relative;
+	float: right;
+	padding-right: 20%;
+	width: 65%;
+	height: 65%;
+	margin-top: 85px;
+}
+
+.link i {
+	position: relative;
+	float: left;
+	text-align: left;
+	margin-top: 10px;
+}
+
+i {
+	color: #ffffff;
+	background-color: #000000;
+}
+ .link_i{
+ 
+ 	box-sizing: border-box;
+	display: inline-block;
+		margin-left: 330px;
+  
+}
+
+.link_i div{
+
+	box-sizing: border-box;
+	display: inline-block;
+
+}
+
+.net i {
+	padding: 15px; /* Ширина паспарту */
+    background: #000000; /* Цвет фона  паспарту */
+    border: 0px solid #000000;
+    border-radius: 30px;
+    margin-right: 10px;
+    opacity: 0.6;
+    z-index: 1;
+
+}
+
+.net i:hover:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #2ecc71;
+	border-radius: 30px;
+	border: 0px solid #2ecc71;
+	opacity: 0.6;
+	z-index: 2;
+}
+
+.fa fa-apple{
+	color: #ffffff;
+	opacity: 0.1;
+}
+
+.page_section {
+    padding: 20px;
+    margin-top: 60px;
+
+    text-align: center;
+}
+.menu {} .box {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-left: 3%;
+}
+.box:first-child {
+    margin-left: 0;
+}
+.icon_img {
+    height: 120px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+.icon_img img {
+    vertical-align: middle;
+}
+
+.box p{
+	color: #848484;
+	line-height: 1.5;
+
+}
+
+.text {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 40%;
+
+}
+.video{
+    float: right;
+}
+
+
+.video_menu p{
+	color: #848484;
+	text-align: left;
+	width: 100%;
+	line-height: 1.5;
+}
+
+.video_menu {
+	 
+     background-color: #e3e3e3;
+     padding: 40px 50px 100px 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+.people_menu p{
+	color: #848484;
+	font-style: italic;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	line-height: 1.5;
+}
+
+.people_menu h3{
+	text-align: center;
+}
+
+.people {
+	margin-left: 360px;
+	margin-right: 360px
+}
+.people a{
+	display: inline-block;
+	position: relative;
+}
+
+.people a:hover:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	bottom: 0px;
+	top: -2px;
+	background: #2ecc71;
+	opacity: 0.6;
+}
+
+.social_networks h3, p{
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+
+
+.social_networks i {
+	position: relative;
+	float: left;
+	text-align: left;
+	margin-top: 10px;
+}
+
+
+ .social_networks_i{
+ 	padding-left: 500px;
+ 	padding-right: 500px;
+ }
+
+.social_net i {
+	padding: 15px; 
+    background: #000000; 
+    border: 0px solid #000000;
+    border-radius: 30px;
+    margin-right: 10px;
+    opacity: 0.6;
+}
+
+.social_net i:hover:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #2ecc71;
+	border-radius: 30px;
+	border: 0px solid #2ecc71;
+	opacity: 0.6;	
+}
+.social_networks{
+ 	padding-top: 20px;
+ 	padding-bottom: 100px;
+ }
+
+.footer {
+    background: #e3e3e3;
+    padding: 5px;
+}
+
+.footer_text_box {
+    display: inline-block;
+    width: 8%;
+    margin-left: 1%;
+    vertical-align: top;
+    padding: 30px 0px 30px 0px;
+}
+.footer_text_box:first-child {
+    margin-left: 300px;
+}
+
+.footer_text_box a{
+	text-decoration: none;
+	color: #848484;
+}
